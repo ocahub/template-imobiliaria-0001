@@ -2,6 +2,8 @@
    no painel (variaveis --t-*, no layout). As paginas do kit (busca, imovel)
    usam os tokens --rh-* ligados aos mesmos valores. */
 
+html, body { margin: 0; }
+
 .tpl {
   /* Os componentes do kit (vitrine, busca, categorias, paginas de imovel) com as cores do template. */
   --rh-color-accent: var(--t-accent);
@@ -54,8 +56,8 @@
 .t-eyebrow { text-transform: uppercase; letter-spacing: .14em; font-size: 12px; font-weight: 700; margin: 0 0 14px; opacity: .92; }
 .t-lead { font-size: 18px; max-width: 52ch; margin: 0 0 28px; opacity: .94; }
 .t-search { max-width: 880px; }
-.tpl .rh-searchbox__tab--on { background: var(--t-primary); color: #fff; }
 .tpl .rh-searchbox__tab { color: var(--t-primary); }
+.tpl .rh-searchbox__tab.rh-searchbox__tab--on { background: var(--t-primary); color: #fff; }
 .t-stat { margin: 22px 0 0; font-weight: 700; font-size: 15px; }
 
 /* Secoes comuns */
