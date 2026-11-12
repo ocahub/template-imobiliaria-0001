@@ -13,7 +13,7 @@
     "typecheck": "nuxt typecheck"
   },
   "dependencies": {
-    "@ocahub/kit": "^0.11.0",
+    "@ocahub/kit": "^0.12.0",
     "nuxt": "^4.5.2"
   },
   "devDependencies": {
