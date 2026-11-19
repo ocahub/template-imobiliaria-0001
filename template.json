@@ -3,6 +3,7 @@
   "name": "Imobiliária 0001",
   "version": "1.1.0",
   "description": "Site de imobiliária com busca no topo, vitrines de imóveis, categorias, corretor e contato pelo WhatsApp.",
+  "cover": "preview.png",
   "modules": [
     "imob"
   ],
