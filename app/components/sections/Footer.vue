@@ -35,7 +35,7 @@ const name = computed(() => company.text(header.value.logo) || store.value?.name
       </div>
     </div>
     <div class="t-wrap">
-      <div class="t-footer__copy">© {{ new Date().getFullYear() }} {{ name }} · <RhText path="creci" :value="p.creci" ph="CRECI" /></div>
+      <div class="t-footer__copy">© {{ new Date().getFullYear() }} {{ name }} · <RhText path="creci" :value="p.creci" ph="CRECI" /> · <RhCookiePreferences /></div>
     </div>
   </footer>
 </template>
